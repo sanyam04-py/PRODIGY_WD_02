@@ -58,18 +58,18 @@ function showSection(sectionName) {
       sectionContent.innerHTML = `
         <h2>About Me</h2>
         <h3>Education</h3>
-        <ul>${aboutData.education.map(item => '<li>${item}</li>').join('')}</ul>
+        <ul>${aboutData.education.map(item => `<li>${item}</li>`).join('')}</ul>
         <h3>Skills</h3>
-        <ul>${aboutData.skills.map(item => '<li>${item}</li>').join('')}</ul>
+        <ul>${aboutData.skills.map(item => `<li>${item}</li>`).join('')}</ul>
         <h3>Achievements</h3>
-        <ul>${aboutData.achievements.map(item => '<li>${item}</li>').join('')}</ul>
+        <ul>${aboutData.achievements.map(item => `<li>${item}</li>`).join('')}</ul>
       `;
       break;
 
     case "Portfolio":
       sectionContent.innerHTML = `
         <h2>My Projects</h2>
-        <ul>${projectData.map(item => '<li>${item}</li>').join('')}</ul>
+        <ul>${projectData.map(item => `<li>${item}</li>`).join('')}</ul>
       `;
       break;
 
