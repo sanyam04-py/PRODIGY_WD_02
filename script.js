@@ -1,34 +1,25 @@
 const aboutData = {
   education: [
-    "B.Tech in AI & Data Science - 2024–2028",
-    "12th Grade - RBSE Board - 2023",
-    "10th Grade - RBSE Board - 2021"
+    "B.Tech in AI & Data Science - YEAR",
+    "12th Grade - ..... Board - YEAR",
+    "10th Grade - ..... Board - YEAR"
   ],
   skills: [
-    "Python, JavaScript, HTML, CSS",
-    "Machine Learning, Data Analysis",
-    "Web Development (Frontend)",
-    "Git & GitHub"
+    "YOUR SKILLS"
   ],
   achievements: [
-    "Built several full-stack web apps",
-    "Content creator on YouTube (Backpack Stories by Sam)",
-    "Completed multiple machine learning projects",
-    "Hackathon participant",
-    "Karate Int. Player And National Referee"
+    "YOUR ACHEIVEMENTS"
   ]
 };
 
 const projectData = [
-  "Menstrual Cycle Tracker",
-  "Stopwatch",
-  "Personal Portfolio",
-  "Explore more on GitHub: <a href='https://github.com/sanyam04-py' target='_blank'>Visit GitHub</a>"
+  "YOUR PROJECT",
+  "Explore more on GitHub: <a href='https://github.com/YOUR_PROFILE' target='_blank'>Visit GitHub</a>"
 ];
 
 const contactInfo = {
-  phone: "9982281385",
-  email: "2024btechaidssanyam16808@poornima.edu.in"
+  phone: "YOUR NO.",
+  email: "YOUR EMAIL ID"
 };
 
 function showSection(sectionName) {
